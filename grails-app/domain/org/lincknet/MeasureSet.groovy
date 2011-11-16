@@ -2,6 +2,8 @@ package org.lincknet
 
 class MeasureSet {
     
+    static belongsTo = [tank:Tank]
+    
     Float ph
     Integer kh
     Integer gh

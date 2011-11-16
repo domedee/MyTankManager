@@ -4,10 +4,10 @@ class Tank {
     
     String name;
     Integer size;
-    ArrayList<Besatz> besatzListe;
-    ArrayList<MeasureSet> measureSet;
-    
+    static hasMany = [besatz:Besatz, measureSet:MeasureSet]
 
     static constraints = {
     }
+    
+   
 }

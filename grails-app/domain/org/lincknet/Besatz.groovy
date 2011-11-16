@@ -1,7 +1,7 @@
 package org.lincknet
 
 class Besatz {
-    Fish fish
+    static belongsTo = [fish:Fish]
     Integer adultMale
     Integer adultFemale
     Integer toddlers
